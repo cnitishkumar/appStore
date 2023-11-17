@@ -1,0 +1,40 @@
+.apps-list-item {
+  list-style: none;
+  margin: 10px;
+  padding: 10px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  height: 150px;
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.app-image {
+  height: 120px;
+  width: 80px;
+}
+.app-name {
+  font-family: 'Bre Serif';
+  color: #1e293b;
+  font-size: 16px;
+  text-align: center;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 767px) {
+  .apps-list-item {
+    padding: 20px;
+  }
+  .app-image {
+    height: 70%;
+    width: 60%;
+    max-height: 120px;
+    max-width: 80px;
+  }
+  .app-name {
+    font-size: 14px;
+  }
+}
